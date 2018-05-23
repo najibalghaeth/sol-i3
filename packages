@@ -13,6 +13,8 @@ Solus = https://packages.solus-project.com/unstable/eopkg-index.xml.xz
 @desktop.i3
 mpv
 vim
+#nano
+firefox
 
 ## Solus Specific software
 #doflicky
@@ -48,120 +50,34 @@ grub2
 linux-firmware
 linux-current
 lvm2
-#
-## Networking
-firefox
-#network-manager
-#networkmanager-openconnect
-#networkmanager-openvpn
-#
-## GNOME stuff
-#baobab
-#bluez
-#eog
-#evince
-#file-roller
-#gedit
-#gnome-calculator
-#gnome-calendar
-#gnome-control-center
-#gnome-keyring
-#gnome-screenshot
-#gnome-settings-daemon
-#gnome-system-monitor
-#gnome-terminal
-#gnome-themes-standard
-#nautilus
-#nautilus-python
-#seahorse
-#thunderbird
-#vino
-#
-## not-completely-gnome apps
-#
-#hexchat
-#hunspell-en
-#rhythmbox
-#transmission
-#
-## "base" desktop stuff
+
 #adwaita-icon-theme
-#dconf-editor
 dejavu-fonts-ttf
-#desktop-file-utils
-## Ensure we support all the unicode chars
+
+# Ensure we support all the unicode chars
 font-droid-ttf
 font-hack-ttf
 font-symbola-ttf
-#gnome-settings-daemon
-#gnome-themes-standard
-#gnome-user-docs
-#yelp
-#
-## Office
-#libreoffice-all
-#
-## Printy thingies
-#system-config-printer
-#
-## Multimedia
-#freetype2-subpixel
-#gnome-mpv
-#gstreamer-1.0-libav
-#gstreamer-1.0-plugins-bad
-#gstreamer-1.0-plugins-good
-#gstreamer-1.0-plugins-ugly
-#libdvdcss
-#
-## Install reqs
-#dosfstools
-## installer FS support
+
+# installer FS support
 inxi
 kbd
-#ntfs-3g
 openssh
 os-installer
 gparted
-#
-## Login. It helps
+
+# Login. It helps
 #lightdm
 #slick-greeter
-#
-## Branding
-#budgie-desktop
-#budgie-desktop-branding-livecd
-#budgie-desktop-branding-material
-#budgie-screenshot-applet
-#gnome-backgrounds
-#rhythmbox-alternative-toolbar
-#
-## Optional stripped stuff
+
+# Optional stripped stuff
 #exfat-utils
 #fuse-exfat
 #lsb-release
-#man-db
-#nano
+man-db
 #pciutils
 #reiserfsprogs
 #wget
-#
-## International support
-#font-indic-ttf
-#font-lateef-ttf
-#font-tlwg-ttf
-#
-## Utils n stuffs
-#gnome-disk-utility
-#tree
-#
-## Accessibility
-#orca
-#onboard
-#
-## print/scan support (T4258)
-#sane-backends
-#hplip-drivers
-#canon-ufriilt-common
-#
+
 ## Third party applications
 snapd
