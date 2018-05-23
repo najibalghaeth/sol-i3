@@ -8,6 +8,7 @@ There is no way to build Solus ISO not from under Solus distribution. So, you mu
 after thet just:
 
 ```bash
-curl -LO https://github.com/atommixz/sol-i3/blob/master/sol-i3.sh
+curl -LO https://github.com/atommixz/sol-i3/raw/master/sol-i3.sh
+
 sh sol-i3.sh
 ```

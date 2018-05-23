@@ -2,7 +2,7 @@
 
 sudo eopkg it git make python-configobj libisoburn syslinux
 
-git clone https://github/atommixz/sol-i3
+mkdir sol-i3
 cd sol-i3
 
 git clone https://dev.solus-project.com/source/common
@@ -12,9 +12,9 @@ ln -sv common/Makefile.common .
 ln -sv common/Makefile.toplevel Makefile
 ln -sv common/Makefile.iso .
 
-cp packages solus-image-i3
-
 cd solus-image-i3
+
+curl -LO https://github.com/atommixz/sol-i3/raw/master/packages
 
 sed -i '
 	s/Solus/Sol/g; 
