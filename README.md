@@ -8,6 +8,11 @@ There is no way to build Solus ISO not from under Solus distribution. So, you mu
 then just:
 
 ```bash
-curl -LO https://github.com/atommixz/sol-i3/raw/master/sol-i3.sh
+sudo eopkg it git vim
+git clone https://github.com/atommixz/sol-i3
+cd sol-i3
+
+vim packages
+
 sh sol-i3.sh
 ```
