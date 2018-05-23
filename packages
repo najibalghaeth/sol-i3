@@ -16,12 +16,12 @@ vim
 #nano
 firefox
 
-## Solus Specific software
+# Solus Specific software
 #doflicky
 #solus-hardware-config
 #solus-sc
-#
-## Drivers
+
+# Drivers
 #xorg-driver-input-libinput
 #xorg-driver-input-wacom
 xorg-driver-video-amdgpu
@@ -32,16 +32,16 @@ xorg-driver-video-amdgpu
 #xorg-driver-video-radeon
 #xorg-driver-video-vesa
 #xorg-driver-video-vmware
-#
-## Temporary assets which the ISO script will automatically remove again
-## We need these to successfully build an initrd
+
+# Temporary assets which the ISO script will automatically remove again
+# We need these to successfully build an initrd
 intel-microcode
 bash-recovery
 binutils
 dracut
 prelink
-#
-## Boot/firmare/kernel
+
+# Boot/firmare/kernel
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -79,5 +79,5 @@ man-db
 #reiserfsprogs
 #wget
 
-## Third party applications
+# Third party applications
 snapd
