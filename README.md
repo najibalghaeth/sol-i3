@@ -5,10 +5,9 @@
 
 There is no way to build Solus ISO not from under Solus distribution. So, you must install Solus before, on PC or virtual box.
 
-after thet just:
+then just:
 
 ```bash
 curl -LO https://github.com/atommixz/sol-i3/raw/master/sol-i3.sh
-
 sh sol-i3.sh
 ```
